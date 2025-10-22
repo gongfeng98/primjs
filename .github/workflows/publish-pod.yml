@@ -52,3 +52,5 @@ jobs:
         run: |-
           pod repo add-cdn trunk https://cdn.cocoapods.org/
           COCOAPODS_TRUNK_TOKEN=$COCOAPODS_TRUNK_TOKEN POD_VERSION=$POD_VERSION pod trunk push PrimJS.podspec  --skip-import-validation --allow-warnings
+          
+          
